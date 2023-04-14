@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiRestTiendaComiclandia", "ApiRestTiendaComiclandia\ApiRestTiendaComiclandia.csproj", "{9A9F1822-D837-49A3-A790-4F25A12EC37B}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "ClienteTiendaComiclandia", "ClienteTiendaComiclandia\ClienteTiendaComiclandia.vbproj", "{3A105FD9-783C-4D19-9F31-25961A364294}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A9F1822-D837-49A3-A790-4F25A12EC37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9F1822-D837-49A3-A790-4F25A12EC37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9F1822-D837-49A3-A790-4F25A12EC37B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9F1822-D837-49A3-A790-4F25A12EC37B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3A105FD9-783C-4D19-9F31-25961A364294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A105FD9-783C-4D19-9F31-25961A364294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A105FD9-783C-4D19-9F31-25961A364294}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A105FD9-783C-4D19-9F31-25961A364294}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21C8C71F-9FAD-4202-A5A4-906641047E9F}
+	EndGlobalSection
+EndGlobal

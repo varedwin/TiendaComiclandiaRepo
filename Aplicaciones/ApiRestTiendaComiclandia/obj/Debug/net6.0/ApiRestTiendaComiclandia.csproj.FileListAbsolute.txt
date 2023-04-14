@@ -1,0 +1,76 @@
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.csproj.AssemblyReference.cache
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.AssemblyInfoInputs.cache
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.AssemblyInfo.cs
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.csproj.CoreCompileInputs.cache
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\appsettings.json
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\ApiRestTiendaComiclandia.exe
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\ApiRestTiendaComiclandia.deps.json
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\ApiRestTiendaComiclandia.runtimeconfig.json
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\ApiRestTiendaComiclandia.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\ApiRestTiendaComiclandia.pdb
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets\msbuild.ApiRestTiendaComiclandia.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiRestTiendaComiclandia.props
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiRestTiendaComiclandia.props
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiRestTiendaComiclandia.props
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\scopedcss\bundle\ApiRestTiendaComiclandia.styles.css
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.csproj.CopyComplete
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\refint\ApiRestTiendaComiclandia.dll
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.pdb
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.genruntimeconfig.cache
+C:\Users\Edwin Vargas\source\repos\Prueba\ApiRestTiendaComiclandia\obj\Debug\net6.0\ref\ApiRestTiendaComiclandia.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\appsettings.json
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\ApiRestTiendaComiclandia.exe
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\ApiRestTiendaComiclandia.deps.json
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\ApiRestTiendaComiclandia.runtimeconfig.json
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\ApiRestTiendaComiclandia.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\ApiRestTiendaComiclandia.pdb
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.csproj.AssemblyReference.cache
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.AssemblyInfoInputs.cache
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.AssemblyInfo.cs
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.csproj.CoreCompileInputs.cache
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets\msbuild.ApiRestTiendaComiclandia.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiRestTiendaComiclandia.props
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiRestTiendaComiclandia.props
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiRestTiendaComiclandia.props
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\scopedcss\bundle\ApiRestTiendaComiclandia.styles.css
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.csproj.CopyComplete
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\refint\ApiRestTiendaComiclandia.dll
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.pdb
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ApiRestTiendaComiclandia.genruntimeconfig.cache
+C:\Users\Edwin Vargas\Desktop\Tienda Comiclandia\Aplicaciones\ApiRestTiendaComiclandia\obj\Debug\net6.0\ref\ApiRestTiendaComiclandia.dll

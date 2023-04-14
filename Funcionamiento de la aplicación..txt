@@ -1,0 +1,14 @@
+Funcionamiento de la aplicación.
+
+
+1. Ejecutar los scripts de la carpeta Base de datos para crear la base de datos, tablas, procedimientos e información
+2. EJecutar el servicio rest llamado ApiRestTiendaComiclandia
+3. EJecutar el cliente llamado ClienteTiendaComiclandia
+
+Para el funcionamiento del cliente:
+1. Se consulta los productos mediante el botón Consultar Productos
+2. Los poductos aparecen en la Lista de Productos
+3. Desde la lista de productos se puede seleccionar y luego dar click en el botón Agregar Productos
+4. En la lista de productos agregados se puede eliminar productos
+5. En el campo valor total aparece el total de los productos agregados
+6. Los campos con datos del cliente deben ser llenados para poder guardar el pedido.
