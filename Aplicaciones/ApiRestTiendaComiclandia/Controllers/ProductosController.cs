@@ -1,4 +1,5 @@
 ﻿using ApiRestTiendaComiclandia.AccesoDatos;
+using ApiRestTiendaComiclandia.LogicaNegocio;
 using ApiRestTiendaComiclandia.Modelos;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,15 +11,14 @@ namespace ApiRestTiendaComiclandia.Controllers
     [ApiController]
     public class ProductosController : ControllerBase
     {
-        // GET: api/<ProductosController>
+        
         [HttpGet]
-        //[Route("api/Productos")]
         public async Task<ActionResult<List<Producto>>> Get()
         {
             try
             {
-                ProductoAD prodAD = new ProductoAD();
-                var productos = await prodAD.ObtenerProductos();
+                ProductoLN prodLN = new ProductoLN();
+                var productos = await prodLN.ObtenerProductos();
                 return productos;
 
             }
@@ -27,9 +27,26 @@ namespace ApiRestTiendaComiclandia.Controllers
                 return StatusCode(500);
                  
             }
-
-           
-
         }
+
+
+        [HttpPost]
+        public ActionResult Post([FromBody] Pedido pedido)
+        {
+            try
+            {
+                ProductoLN prodLN = new ProductoLN();
+                prodLN.GuardarClienteProducto(pedido);
+                return Ok();
+
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(500);
+            }
+            
+        }
+
     }
 }

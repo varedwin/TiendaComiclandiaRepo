@@ -1,6 +1,10 @@
 ﻿Imports System.IO
 Imports System.Net
 Imports System.Net.Http
+Imports System.Net.Http.Headers
+Imports System.Net.Http.Json
+Imports System.Reflection.Metadata
+Imports System.Text
 Imports Newtonsoft.Json
 Imports RestSharp
 
@@ -16,29 +20,34 @@ Public Class Form1
 
     Private Async Sub btnConsultar_Click(sender As Object, e As EventArgs) Handles btnConsultar.Click
 
-        Dim resp As String = Await ObtenerProductos()
-        lstProd = JsonConvert.DeserializeObject(Of List(Of Productos))(resp)
+        Try
+            Dim resp As String = Await ObtenerProductos()
+            lstProd = JsonConvert.DeserializeObject(Of List(Of Productos))(resp)
 
-        If lstProductos IsNot Nothing Then
+            If lstProductos IsNot Nothing Then
 
-            lstProductos.Items.Clear()
+                lstProductos.Items.Clear()
 
-        End If
+            End If
 
 
-        If lstProd IsNot Nothing Then
+            If lstProd IsNot Nothing Then
 
-            For Each prod As Productos In lstProd
+                For Each prod As Productos In lstProd
 
-                With lstProductos.Items.Add(prod.Id)
-                    .SubItems.Add(prod.NombreProducto)
-                    .SubItems.Add(prod.Valor)
-                End With
+                    With lstProductos.Items.Add(prod.Id)
+                        .SubItems.Add(prod.NombreProducto)
+                        .SubItems.Add(prod.Valor)
+                    End With
 
-            Next
+                Next
 
-        End If
+            End If
+        Catch ex As Exception
 
+            MessageBox.Show("Ocurrió un error al consultar los productos")
+
+        End Try
     End Sub
 
 
@@ -102,23 +111,27 @@ Public Class Form1
     End Sub
 
 
+
+
     Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
 
-        If txtNombre IsNot Nothing And txtNombre IsNot Nothing And txtNombre IsNot Nothing And txtNombre IsNot Nothing And lstAgregados.Items.Count > 0 Then
+        Try
 
-            Dim ped = New Pedido()
-            ped.Nombre = txtNombre.Text
-            ped.Apellido = txtApellido.Text
-            ped.Cedula = txtCedula.Text
-            ped.Direccion = txtDireccion.Text
+            If txtNombre IsNot Nothing And txtNombre IsNot Nothing And txtNombre IsNot Nothing And txtNombre IsNot Nothing And lstAgregados.Items.Count > 0 Then
 
-            GuardarProductos(ped)
+                Dim pedido = CrearObjetoAGuardar()
+                GuardarPedido(pedido)
 
-        Else
-            MessageBox.Show("No están los datos completos")
 
-        End If
+            Else
+                MessageBox.Show("No están los datos completos")
 
+            End If
+        Catch ex As Exception
+
+            MessageBox.Show("Ocurrió un error al tratar de Guardar el pedido")
+
+        End Try
     End Sub
 
 
@@ -139,19 +152,67 @@ Public Class Form1
 
     Private Async Function ObtenerProductos() As Task(Of String)
 
-        Dim req As WebRequest = WebRequest.Create(url)
-        Dim resp As WebResponse = req.GetResponse()
-        Dim sr As StreamReader = New StreamReader(resp.GetResponseStream())
-        Return Await sr.ReadToEndAsync()
+        Dim httpClient As New HttpClient()
+        Dim response As HttpResponseMessage = Await httpClient.GetAsync(url)
+        response.EnsureSuccessStatusCode()
+        Dim responseString As String = Await response.Content.ReadAsStringAsync()
+        Return responseString
 
     End Function
 
-    Private Sub GuardarProductos(pedido As Pedido)
+    Private Async Sub GuardarPedido(pedido As Pedido)
 
-        MessageBox.Show("Información enviada a la base de datos")
+
+        Dim postData As String = JsonConvert.SerializeObject(pedido)
+        Dim httpClient = New HttpClient()
+        httpClient.DefaultRequestHeaders.Accept.Add(New MediaTypeWithQualityHeaderValue("application/json"))
+        Dim httpContent As New StringContent(postData, Encoding.UTF8, "application/json")
+        Dim response As HttpResponseMessage = Await httpClient.PostAsync(url, httpContent)
+
+        If response.StatusCode = HttpStatusCode.OK Then
+
+            InicializarCampos()
+            MessageBox.Show("Pedido guardado Exitosamente")
+
+        End If
+
+        If response.StatusCode = HttpStatusCode.InternalServerError Then
+
+            MessageBox.Show("Ocurrió un error al guardar el pedido")
+
+        End If
 
     End Sub
 
+    Private Function CrearObjetoAGuardar() As Pedido
 
+        Dim pedido = New Pedido()
+        pedido.Nombre = txtNombre.Text
+        pedido.Apellido = txtApellido.Text
+        pedido.Cedula = txtCedula.Text
+        pedido.Direccion = txtDireccion.Text
+        pedido.IdProductos = New List(Of String)()
+
+        For Each prodActuales As ListViewItem In lstAgregados.Items
+
+            pedido.IdProductos.Add(prodActuales.SubItems(0).Text)
+
+        Next
+
+        Return pedido
+
+    End Function
+
+    Private Sub InicializarCampos()
+
+        lstAgregados.Items.Clear()
+        txtNombre.Text = String.Empty
+        txtApellido.Text = String.Empty
+        txtCedula.Text = String.Empty
+        txtDireccion.Text = String.Empty
+        Label8.Text = String.Empty
+
+
+    End Sub
 
 End Class

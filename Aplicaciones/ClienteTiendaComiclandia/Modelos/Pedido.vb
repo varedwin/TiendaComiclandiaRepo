@@ -4,6 +4,6 @@
     Public Property Apellido As String
     Public Property Cedula As String
     Public Property Direccion As String
-    ' Public Property IdProductos As List(Of Decimal)
+    Public Property IdProductos As List(Of String)
 
 End Class
